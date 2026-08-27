@@ -1,7 +1,5 @@
 # Malnutrition Research Automation
 
-# Malnutrition Research Automation
-
 A reproducible Python-based research automation pipeline for statistical analysis of child malnutrition data.
 
 ## Project Overview
