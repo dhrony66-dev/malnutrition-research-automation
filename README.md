@@ -166,98 +166,6 @@ malnutrition-research-automation/
 └── .gitignore
 ```
 
-## Script Description
-
-| Script                | Purpose                                   |
-| --------------------- | ----------------------------------------- |
-| `00_test_config.py`   | Tests project configuration               |
-| `01_import.py`        | Imports and inspects the dataset          |
-| `02_validation.py`    | Performs variable and data validation     |
-| `03_cleaning.py`      | Cleans the dataset and removes duplicates |
-| `04_missing.py`       | Assesses and handles missing values       |
-| `05_descriptive.py`   | Generates descriptive statistics          |
-| `06_visualization.py` | Creates exploratory visualizations        |
-| `07_correlation.py`   | Performs correlation analysis             |
-| `08_vif.py`           | Assesses multicollinearity using VIF      |
-| `09_regression.py`    | Fits logistic regression models           |
-| `10_diagnostics.py`   | Evaluates model performance               |
-| `11_tables.py`        | Generates publication tables              |
-| `12_figures.py`       | Generates publication figures             |
-| `13_report.py`        | Generates an automated Word report        |
-
-
-## Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* SciPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Statsmodels
-* OpenPyXL
-* Python-docx
-* PyYAML
-* Git
-* GitHub
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/dhrony66-dev/malnutrition-research-automation.git
-```
-
-Move into the project directory:
-
-```bash
-cd malnutrition-research-automation
-```
-
-Create a virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate the environment on Windows:
-
-```bash
-.venv\Scripts\activate
-```
-
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Running the Pipeline
-
-The individual analysis scripts can be executed sequentially:
-
-```bash
-python src/00_test_config.py
-python src/01_import.py
-python src/02_validation.py
-python src/03_cleaning.py
-python src/04_missing.py
-python src/05_descriptive.py
-python src/06_visualization.py
-python src/07_correlation.py
-python src/08_vif.py
-python src/09_regression.py
-python src/10_diagnostics.py
-python src/11_tables.py
-python src/12_figures.py
-python src/13_report.py
-```
-
-The generated tables, figures, and reports are saved locally in the project's results and reports directories.
-
-
 ## Future Improvements
 
 Planned improvements include:
@@ -315,7 +223,7 @@ This project demonstrates practical experience in:
 **Delwar Hossan Rony**
 
 BSc (Honours) in Statistics
-
+Jatiya Kabi Kazi Nazrul Islam University, Trishal,Mymensingh 
 Bangladesh
 
 ## License
