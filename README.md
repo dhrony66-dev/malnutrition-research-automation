@@ -185,47 +185,6 @@ malnutrition-research-automation/
 | `12_figures.py`       | Generates publication figures             |
 | `13_report.py`        | Generates an automated Word report        |
 
-## Key Results
-
-The automated analysis produced the following outcome prevalence estimates in the practice dataset:
-
-| Outcome     | Prevalence |
-| ----------- | ---------: |
-| Stunting    |     38.85% |
-| Wasting     |     25.05% |
-| Underweight |     31.75% |
-
-The numerical descriptive analysis showed:
-
-| Variable          |         Mean |    SD |
-| ----------------- | -----------: | ----: |
-| Age               | 30.06 months | 17.28 |
-| Birth weight      |      2.98 kg |  0.45 |
-| Dietary diversity |         3.83 |  1.99 |
-| Maternal BMI      |        21.99 |  2.93 |
-
-### Multicollinearity
-
-The VIF analysis identified high VIF values for:
-
-* Birth weight: VIF = 30.001
-* Maternal BMI: VIF = 31.920
-
-Age and dietary diversity had comparatively acceptable VIF values.
-
-### Logistic Regression Performance
-
-The models achieved the following ROC-AUC values on the test data:
-
-| Outcome     | ROC-AUC |
-| ----------- | ------: |
-| Stunting    |  0.7047 |
-| Wasting     |  0.6438 |
-| Underweight |  0.6857 |
-
-Among the three models, the stunting model showed the highest ROC-AUC.
-
-These results are based on a practice dataset and should not be interpreted as estimates of the actual population prevalence or determinants of malnutrition.
 
 ## Technologies Used
 
@@ -298,21 +257,6 @@ python src/13_report.py
 
 The generated tables, figures, and reports are saved locally in the project's results and reports directories.
 
-## Reproducibility
-
-The project is designed around a reproducible workflow. Configuration settings are stored separately in `config/config.yaml`, while individual analysis stages are organized into independent Python scripts.
-
-This structure makes it easier to adapt the pipeline to appropriately structured research datasets.
-
-## Limitations
-
-This repository uses a practice dataset for demonstration purposes. Therefore:
-
-* The results are not intended to represent a real population.
-* Causal relationships cannot be inferred from the analysis.
-* The current workflow focuses primarily on logistic regression.
-* External validation has not been performed.
-* More advanced statistical and machine learning models can be incorporated in future versions.
 
 ## Future Improvements
 
