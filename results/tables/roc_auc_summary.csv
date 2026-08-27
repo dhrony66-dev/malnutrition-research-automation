@@ -1,0 +1,4 @@
+Outcome,ROC_AUC
+stunting,0.7047
+wasting,0.6438
+underweight,0.6857

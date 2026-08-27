@@ -1,0 +1,5 @@
+Variable,VIF,Interpretation
+age_months,3.89,Acceptable
+birth_weight,30.001,High multicollinearity
+dietary_diversity,4.611,Acceptable
+maternal_bmi,31.92,High multicollinearity

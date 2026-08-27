@@ -1,0 +1,30 @@
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:               stunting   No. Observations:                 2000
+Model:                          Logit   Df Residuals:                     1983
+Method:                           MLE   Df Model:                           16
+Date:                Wed, 26 Aug 2026   Pseudo R-squ.:                 0.09559
+Time:                        01:12:32   Log-Likelihood:                -1208.4
+converged:                       True   LL-Null:                       -1336.1
+Covariance Type:            nonrobust   LLR p-value:                 3.972e-45
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                             1.3972      0.525      2.663      0.008       0.369       2.426
+age_months                       -0.0062      0.003     -2.170      0.030      -0.012      -0.001
+birth_weight                     -0.2786      0.110     -2.526      0.012      -0.495      -0.062
+dietary_diversity                -0.1892      0.027     -7.047      0.000      -0.242      -0.137
+maternal_bmi                     -0.0370      0.017     -2.157      0.031      -0.071      -0.003
+sex_Male                         -0.0250      0.098     -0.254      0.800      -0.218       0.168
+mother_education_No education     0.7557      0.182      4.155      0.000       0.399       1.112
+mother_education_Primary          0.4864      0.165      2.949      0.003       0.163       0.810
+mother_education_Secondary        0.2009      0.168      1.198      0.231      -0.128       0.530
+wealth_index_Poorer               0.2810      0.149      1.890      0.059      -0.010       0.572
+wealth_index_Poorest              0.4688      0.153      3.063      0.002       0.169       0.769
+wealth_index_Richer              -0.2687      0.163     -1.645      0.100      -0.589       0.051
+wealth_index_Richest             -0.4361      0.174     -2.501      0.012      -0.778      -0.094
+urban_rural_Urban                -0.1790      0.104     -1.727      0.084      -0.382       0.024
+sanitation_Unimproved             0.2401      0.109      2.207      0.027       0.027       0.453
+water_source_Unimproved           0.2919      0.107      2.737      0.006       0.083       0.501
+immunization_Partial/None         0.2514      0.105      2.397      0.017       0.046       0.457
+=================================================================================================

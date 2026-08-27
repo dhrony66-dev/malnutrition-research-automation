@@ -1,0 +1,5 @@
+Variable,N,Mean,SD,Min,Median,Max
+age_months,2000,30.058,17.283,0.0,30.0,59.0
+birth_weight,2000,2.976,0.453,1.53,2.98,4.39
+dietary_diversity,2000,3.834,1.989,0.0,4.0,8.0
+maternal_bmi,2000,21.985,2.925,14.0,21.9,32.6

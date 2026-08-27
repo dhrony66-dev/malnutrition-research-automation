@@ -1,0 +1,16 @@
+Variable,Data_Type,Unique_Values,Missing_N,Missing_Percent
+child_id,str,2000,0,0.0
+age_months,int64,60,0,0.0
+birth_weight,float64,237,0,0.0
+dietary_diversity,int64,9,0,0.0
+maternal_bmi,float64,157,0,0.0
+sex,str,2,0,0.0
+mother_education,str,4,0,0.0
+wealth_index,str,5,0,0.0
+urban_rural,str,2,0,0.0
+sanitation,str,2,0,0.0
+water_source,str,2,0,0.0
+immunization,str,2,0,0.0
+stunting,str,2,0,0.0
+wasting,str,2,0,0.0
+underweight,str,2,0,0.0

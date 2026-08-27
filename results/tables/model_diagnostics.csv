@@ -1,0 +1,4 @@
+Outcome,Training_N,Testing_N,Accuracy,Sensitivity,Specificity,ROC_AUC,TN,FP,FN,TP
+stunting,1600,400,0.6825,0.4774,0.8122,0.7047,199,46,81,74
+wasting,1600,400,0.7525,0.04,0.99,0.6438,297,3,96,4
+underweight,1600,400,0.7025,0.2835,0.8974,0.6857,245,28,91,36

@@ -1,0 +1,5 @@
+Variable,N,Missing,Mean,SD,Median,Minimum,Q1,Q3,Maximum
+age_months,2000,0,30.06,17.28,30.0,0.0,16.0,45.0,59.0
+birth_weight,2000,0,2.98,0.45,2.98,1.53,2.68,3.28,4.39
+dietary_diversity,2000,0,3.83,1.99,4.0,0.0,2.0,5.0,8.0
+maternal_bmi,2000,0,21.98,2.93,21.9,14.0,20.0,23.9,32.6

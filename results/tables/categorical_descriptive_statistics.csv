@@ -1,0 +1,26 @@
+Variable,Category,N,Percent
+sex,Female,1030,51.5
+sex,Male,970,48.5
+mother_education,Primary,708,35.4
+mother_education,Secondary,618,30.9
+mother_education,No education,389,19.45
+mother_education,Higher,285,14.25
+wealth_index,Poorest,448,22.4
+wealth_index,Poorer,429,21.45
+wealth_index,Middle,405,20.25
+wealth_index,Richer,365,18.25
+wealth_index,Richest,353,17.65
+urban_rural,Rural,1282,64.1
+urban_rural,Urban,718,35.9
+sanitation,Basic,1188,59.4
+sanitation,Unimproved,812,40.6
+water_source,Improved,1234,61.7
+water_source,Unimproved,766,38.3
+immunization,Full,1325,66.25
+immunization,Partial/None,675,33.75
+stunting,No,1223,61.15
+stunting,Yes,777,38.85
+wasting,No,1499,74.95
+wasting,Yes,501,25.05
+underweight,No,1365,68.25
+underweight,Yes,635,31.75
